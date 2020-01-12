@@ -44,6 +44,7 @@ setup(
     python_requires='>=3.5',
     install_requires=[
         'docutils>=0.14',
+        'simpleeval>=0.9',
     ],
     zip_safe=False,
 )
