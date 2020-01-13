@@ -16,7 +16,7 @@ def path(docpath):
     return DocpathParser.parse(docpath)
 
 
-class DocpathParser:
+class DocpathParser(object):
 
     Token = namedtuple('Token', 'name value')
 

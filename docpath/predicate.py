@@ -9,7 +9,7 @@ from simpleeval import safe_add, safe_mult, simple_eval
 from .axis import Axis
 
 
-class Predicate:
+class Predicate(object):
 
     def __init__(self, predicate):
         self._raw_predicate = predicate

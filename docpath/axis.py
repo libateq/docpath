@@ -3,7 +3,7 @@
 # repository for full copyright notices, license terms and support information.
 
 
-class Axis:
+class Axis(object):
 
     def __new__(cls, name):
         axes = cls.axes()

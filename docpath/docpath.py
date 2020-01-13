@@ -8,7 +8,7 @@ from .axis import Attribute, Axis
 from .predicate import Predicate
 
 
-class Docpath:
+class Docpath(object):
 
     def __init__(self, steps):
         self.steps = steps
@@ -140,7 +140,7 @@ class Docpath:
         return Predicate.filter_nodes(predicates, node_addresses)
 
 
-class DocpathStep:
+class DocpathStep(object):
 
     def __init__(self, axis, node_test):
         self.axis = axis
