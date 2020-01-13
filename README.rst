@@ -1,5 +1,5 @@
-docpath
-#######
+Docpath: XPaths for Docutils
+############################
 
 The *docpath* package aims to provide a way of specifying paths to nodes, or
 sets of nodes, in a docutils_ doctree.  Where practical it uses similar syntax
@@ -11,9 +11,18 @@ of paths using common python tools and language features.
 
 .. start-of-readme-only-text
 
+
 Installation
 ============
 
-.. code:: python
+.. code:: bash
 
     pip3 install docpath
+
+
+Usage
+=====
+
+Please refer to the documentation_ for further information.
+
+.. _documentation: https://docpath.readthedocs.org/

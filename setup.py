@@ -21,6 +21,7 @@ setup(
     url='https://bitbucket.org/libateq/docpath',
     project_urls={
         "Bug Tracker": 'https://bitbucket.org/libateq/docpath/issues',
+        "Documentation": 'https://docpath.readthedocs.io/',
         "Source Code": 'https://bitbucket.org/libateq/docpath',
     },
     keywords='docpath docutils sphinx xpath',
