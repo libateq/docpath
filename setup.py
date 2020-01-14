@@ -14,7 +14,7 @@ def read(fname):
 setup(
     name='docpath',
     version='0.1.1',
-    description="Use xpath style paths with docutils document trees.",
+    description="XPath style paths for docutils document trees.",
     long_description=read('README.rst'),
     author='David Harper',
     author_email='python-packages@libateq.org',
