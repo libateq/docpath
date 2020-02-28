@@ -41,7 +41,7 @@ setup(
     ],
     license='GPL-3',
     platforms='any',
-    packages=find_packages(),
+    packages=find_packages(exclude=['tests']),
     python_requires='>=3.5',
     install_requires=[
         'docutils>=0.14',
